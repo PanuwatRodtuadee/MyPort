@@ -13,6 +13,24 @@
             
     </nav>
 </header>
+<style>
+    .menu{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin: 40px;
+        list-style: none;
+    }
+    .menu li{
+        /* text-align: right; */
+        /* text-decoration: none; */
+        /* align-items: right; */
+    }
+    .menu ul{
+        display:block;
+        justify-content: start;
+    }
+</style>
 <main>
     <slot></slot>
 </main>
